@@ -1,0 +1,116 @@
+<Module lineno="1" col="0" end_line_no="16" end_col="13">
+	<AsyncFunctionDef value="async_simple_no_typed" lineno="2" col="0" end_line_no="6" end_col="8">
+		<arguments lineno="2" col="32" end_line_no="2" end_col="78">
+			<posonlyargs lineno="2" col="32" end_line_no="2" end_col="78">
+			</posonlyargs>
+			<args lineno="2" col="32" end_line_no="2" end_col="78">
+				<arg value="gh" lineno="2" col="32" end_line_no="2" end_col="34">
+				</arg>
+				<arg value="original_issue" lineno="2" col="36" end_line_no="2" end_col="50">
+				</arg>
+				<arg value="branch" lineno="2" col="52" end_line_no="2" end_col="58">
+				</arg>
+				<arg value="backport_pr_number" lineno="2" col="60" end_line_no="2" end_col="78">
+				</arg>
+			</args>
+			<kwonlyargs lineno="2" col="32" end_line_no="2" end_col="78">
+			</kwonlyargs>
+			<kw_defaults lineno="2" col="32" end_line_no="2" end_col="78">
+			</kw_defaults>
+			<defaults lineno="2" col="32" end_line_no="2" end_col="78">
+			</defaults>
+		</arguments>
+		<body lineno="2" col="0" end_line_no="6" end_col="8">
+			<Expr lineno="3" col="4" end_line_no="5" end_col="7">
+				<Constant-str value="&#10;    async doc&#10;    " lineno="3" col="4" end_line_no="5" end_col="7">
+				</Constant-str>
+			</Expr>
+			<Pass lineno="6" col="4" end_line_no="6" end_col="8">
+			</Pass>
+		</body>
+		<decorator_list lineno="2" col="0" end_line_no="6" end_col="8">
+		</decorator_list>
+	</AsyncFunctionDef>
+	<AsyncFunctionDef value="async_schrecklich_typed" lineno="9" col="0" end_line_no="16" end_col="13">
+		<arguments lineno="11" col="34" end_line_no="11" end_col="70">
+			<posonlyargs lineno="11" col="34" end_line_no="11" end_col="70">
+			</posonlyargs>
+			<args lineno="11" col="34" end_line_no="11" end_col="70">
+				<arg value="event" lineno="11" col="34" end_line_no="11" end_col="44">
+					<Name_Load value="str" lineno="11" col="41" end_line_no="11" end_col="44">
+					</Name_Load>
+				</arg>
+				<arg value="x" lineno="11" col="46" end_line_no="11" end_col="52">
+					<Name_Load value="int" lineno="11" col="49" end_line_no="11" end_col="52">
+					</Name_Load>
+				</arg>
+			</args>
+			<kwonlyargs lineno="11" col="34" end_line_no="11" end_col="70">
+			</kwonlyargs>
+			<kw_defaults lineno="11" col="34" end_line_no="11" end_col="70">
+			</kw_defaults>
+			<defaults lineno="11" col="34" end_line_no="11" end_col="70">
+			</defaults>
+			<vararg value="args" lineno="11" col="56" end_line_no="11" end_col="60">
+			</vararg>
+			<kwarg value="kwargs" lineno="11" col="64" end_line_no="11" end_col="70">
+			</kwarg>
+		</arguments>
+		<body lineno="9" col="0" end_line_no="16" end_col="13">
+			<FunctionDef value="inner" lineno="13" col="4" end_line_no="14" end_col="12">
+				<arguments lineno="13" col="4" end_line_no="13" end_col="7">
+					<posonlyargs lineno="13" col="4" end_line_no="13" end_col="7">
+					</posonlyargs>
+					<args lineno="13" col="4" end_line_no="13" end_col="7">
+					</args>
+					<kwonlyargs lineno="13" col="4" end_line_no="13" end_col="7">
+					</kwonlyargs>
+					<kw_defaults lineno="13" col="4" end_line_no="13" end_col="7">
+					</kw_defaults>
+					<defaults lineno="13" col="4" end_line_no="13" end_col="7">
+					</defaults>
+				</arguments>
+				<body lineno="13" col="4" end_line_no="14" end_col="12">
+					<Pass lineno="14" col="8" end_line_no="14" end_col="12">
+					</Pass>
+				</body>
+				<decorator_list lineno="13" col="4" end_line_no="14" end_col="12">
+				</decorator_list>
+			</FunctionDef>
+			<Return lineno="16" col="4" end_line_no="16" end_col="13">
+				<Constant-int value="42" lineno="16" col="11" end_line_no="16" end_col="13">
+				</Constant-int>
+			</Return>
+		</body>
+		<decorator_list lineno="9" col="0" end_line_no="16" end_col="13">
+			<Call lineno="9" col="1" end_line_no="9" end_col="49">
+				<Attribute_Load lineno="9" col="1" end_line_no="9" end_col="16">
+					<Name_Load value="router" lineno="9" col="1" end_line_no="9" end_col="7">
+					</Name_Load>
+					<attr value="register" lineno="9" col="1" end_line_no="9" end_col="16">
+					</attr>
+				</Attribute_Load>
+				<Constant-str value="pull_request" lineno="9" col="17" end_line_no="9" end_col="31">
+				</Constant-str>
+				<keyword-str value="action" lineno="9" col="33" end_line_no="9" end_col="48">
+					<Constant-str value="opened" lineno="9" col="40" end_line_no="9" end_col="48">
+					</Constant-str>
+				</keyword-str>
+			</Call>
+			<Call lineno="10" col="1" end_line_no="10" end_col="49">
+				<Attribute_Load lineno="10" col="1" end_line_no="10" end_col="16">
+					<Name_Load value="router" lineno="10" col="1" end_line_no="10" end_col="7">
+					</Name_Load>
+					<attr value="register" lineno="10" col="1" end_line_no="10" end_col="16">
+					</attr>
+				</Attribute_Load>
+				<Constant-str value="pull_request" lineno="10" col="17" end_line_no="10" end_col="31">
+				</Constant-str>
+				<keyword-str value="action" lineno="10" col="33" end_line_no="10" end_col="48">
+					<Constant-str value="edited" lineno="10" col="40" end_line_no="10" end_col="48">
+					</Constant-str>
+				</keyword-str>
+			</Call>
+		</decorator_list>
+	</AsyncFunctionDef>
+</Module>

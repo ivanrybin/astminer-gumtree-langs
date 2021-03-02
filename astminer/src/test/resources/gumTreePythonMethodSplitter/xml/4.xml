@@ -1,0 +1,164 @@
+<Module lineno="1" col="0" end_line_no="22" end_col="15">
+	<FunctionDef value="foo" lineno="1" col="0" end_line_no="22" end_col="15">
+		<arguments lineno="1" col="8" end_line_no="1" end_col="14">
+			<posonlyargs lineno="1" col="8" end_line_no="1" end_col="14">
+			</posonlyargs>
+			<args lineno="1" col="8" end_line_no="1" end_col="14">
+				<arg value="a" lineno="1" col="8" end_line_no="1" end_col="14">
+					<Name_Load value="int" lineno="1" col="11" end_line_no="1" end_col="14">
+					</Name_Load>
+				</arg>
+			</args>
+			<kwonlyargs lineno="1" col="8" end_line_no="1" end_col="14">
+			</kwonlyargs>
+			<kw_defaults lineno="1" col="8" end_line_no="1" end_col="14">
+			</kw_defaults>
+			<defaults lineno="1" col="8" end_line_no="1" end_col="14">
+			</defaults>
+		</arguments>
+		<body lineno="1" col="0" end_line_no="22" end_col="15">
+			<FunctionDef value="foo_1" lineno="3" col="4" end_line_no="8" end_col="23">
+				<arguments lineno="3" col="14" end_line_no="3" end_col="15">
+					<posonlyargs lineno="3" col="14" end_line_no="3" end_col="15">
+					</posonlyargs>
+					<args lineno="3" col="14" end_line_no="3" end_col="15">
+						<arg value="b" lineno="3" col="14" end_line_no="3" end_col="15">
+						</arg>
+					</args>
+					<kwonlyargs lineno="3" col="14" end_line_no="3" end_col="15">
+					</kwonlyargs>
+					<kw_defaults lineno="3" col="14" end_line_no="3" end_col="15">
+					</kw_defaults>
+					<defaults lineno="3" col="14" end_line_no="3" end_col="15">
+					</defaults>
+				</arguments>
+				<body lineno="3" col="4" end_line_no="8" end_col="23">
+					<FunctionDef value="foo_2" lineno="5" col="8" end_line_no="6" end_col="23">
+						<arguments lineno="5" col="18" end_line_no="5" end_col="19">
+							<posonlyargs lineno="5" col="18" end_line_no="5" end_col="19">
+							</posonlyargs>
+							<args lineno="5" col="18" end_line_no="5" end_col="19">
+								<arg value="c" lineno="5" col="18" end_line_no="5" end_col="19">
+								</arg>
+							</args>
+							<kwonlyargs lineno="5" col="18" end_line_no="5" end_col="19">
+							</kwonlyargs>
+							<kw_defaults lineno="5" col="18" end_line_no="5" end_col="19">
+							</kw_defaults>
+							<defaults lineno="5" col="18" end_line_no="5" end_col="19">
+							</defaults>
+						</arguments>
+						<body lineno="5" col="8" end_line_no="6" end_col="23">
+							<Return lineno="6" col="12" end_line_no="6" end_col="23">
+								<Constant-NoneType value="None" lineno="6" col="19" end_line_no="6" end_col="23">
+								</Constant-NoneType>
+							</Return>
+						</body>
+						<decorator_list lineno="5" col="8" end_line_no="6" end_col="23">
+						</decorator_list>
+					</FunctionDef>
+					<Return lineno="8" col="8" end_line_no="8" end_col="23">
+						<Call lineno="8" col="15" end_line_no="8" end_col="23">
+							<Name_Load value="foo_2" lineno="8" col="15" end_line_no="8" end_col="20">
+							</Name_Load>
+							<Name_Load value="b" lineno="8" col="21" end_line_no="8" end_col="22">
+							</Name_Load>
+						</Call>
+					</Return>
+				</body>
+				<decorator_list lineno="3" col="4" end_line_no="8" end_col="23">
+				</decorator_list>
+			</FunctionDef>
+			<FunctionDef value="bar_1" lineno="11" col="4" end_line_no="16" end_col="26">
+				<arguments lineno="11" col="14" end_line_no="11" end_col="28">
+					<posonlyargs lineno="11" col="14" end_line_no="11" end_col="28">
+					</posonlyargs>
+					<args lineno="11" col="14" end_line_no="11" end_col="28">
+						<arg value="b" lineno="11" col="14" end_line_no="11" end_col="20">
+							<Name_Load value="int" lineno="11" col="17" end_line_no="11" end_col="20">
+							</Name_Load>
+						</arg>
+						<arg value="c" lineno="11" col="22" end_line_no="11" end_col="28">
+							<Name_Load value="int" lineno="11" col="25" end_line_no="11" end_col="28">
+							</Name_Load>
+						</arg>
+					</args>
+					<kwonlyargs lineno="11" col="14" end_line_no="11" end_col="28">
+					</kwonlyargs>
+					<kw_defaults lineno="11" col="14" end_line_no="11" end_col="28">
+					</kw_defaults>
+					<defaults lineno="11" col="14" end_line_no="11" end_col="28">
+					</defaults>
+				</arguments>
+				<body lineno="11" col="4" end_line_no="16" end_col="26">
+					<FunctionDef value="bar_2" lineno="13" col="8" end_line_no="14" end_col="21">
+						<arguments lineno="13" col="18" end_line_no="13" end_col="32">
+							<posonlyargs lineno="13" col="18" end_line_no="13" end_col="32">
+							</posonlyargs>
+							<args lineno="13" col="18" end_line_no="13" end_col="32">
+								<arg value="d" lineno="13" col="18" end_line_no="13" end_col="24">
+									<Name_Load value="int" lineno="13" col="21" end_line_no="13" end_col="24">
+									</Name_Load>
+								</arg>
+								<arg value="e" lineno="13" col="26" end_line_no="13" end_col="32">
+									<Name_Load value="int" lineno="13" col="29" end_line_no="13" end_col="32">
+									</Name_Load>
+								</arg>
+							</args>
+							<kwonlyargs lineno="13" col="18" end_line_no="13" end_col="32">
+							</kwonlyargs>
+							<kw_defaults lineno="13" col="18" end_line_no="13" end_col="32">
+							</kw_defaults>
+							<defaults lineno="13" col="18" end_line_no="13" end_col="32">
+							</defaults>
+						</arguments>
+						<body lineno="13" col="8" end_line_no="14" end_col="21">
+							<Return lineno="14" col="12" end_line_no="14" end_col="21">
+								<Constant-int value="42" lineno="14" col="19" end_line_no="14" end_col="21">
+								</Constant-int>
+							</Return>
+						</body>
+						<decorator_list lineno="13" col="8" end_line_no="14" end_col="21">
+						</decorator_list>
+					</FunctionDef>
+					<Return lineno="16" col="8" end_line_no="16" end_col="26">
+						<Call lineno="16" col="15" end_line_no="16" end_col="26">
+							<Name_Load value="bar_2" lineno="16" col="15" end_line_no="16" end_col="20">
+							</Name_Load>
+							<Name_Load value="b" lineno="16" col="21" end_line_no="16" end_col="22">
+							</Name_Load>
+							<Name_Load value="c" lineno="16" col="24" end_line_no="16" end_col="25">
+							</Name_Load>
+						</Call>
+					</Return>
+				</body>
+				<decorator_list lineno="11" col="4" end_line_no="16" end_col="26">
+				</decorator_list>
+			</FunctionDef>
+			<Expr lineno="19" col="4" end_line_no="19" end_col="12">
+				<Call lineno="19" col="4" end_line_no="19" end_col="12">
+					<Name_Load value="foo_1" lineno="19" col="4" end_line_no="19" end_col="9">
+					</Name_Load>
+					<Name_Load value="a" lineno="19" col="10" end_line_no="19" end_col="11">
+					</Name_Load>
+				</Call>
+			</Expr>
+			<Expr lineno="20" col="4" end_line_no="20" end_col="15">
+				<Call lineno="20" col="4" end_line_no="20" end_col="15">
+					<Name_Load value="bar_1" lineno="20" col="4" end_line_no="20" end_col="9">
+					</Name_Load>
+					<Name_Load value="a" lineno="20" col="10" end_line_no="20" end_col="11">
+					</Name_Load>
+					<Name_Load value="a" lineno="20" col="13" end_line_no="20" end_col="14">
+					</Name_Load>
+				</Call>
+			</Expr>
+			<Return lineno="22" col="4" end_line_no="22" end_col="15">
+				<Constant-NoneType value="None" lineno="22" col="11" end_line_no="22" end_col="15">
+				</Constant-NoneType>
+			</Return>
+		</body>
+		<decorator_list lineno="1" col="0" end_line_no="22" end_col="15">
+		</decorator_list>
+	</FunctionDef>
+</Module>
